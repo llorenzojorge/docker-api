@@ -10,7 +10,7 @@ services:
     ports:
       - "3333:3333"
     depends_on:
-      - postgresql
+      - postgres
 
   postgres:
     image: "bitnami/postgresql:latest"
